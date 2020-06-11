@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+table, table th, table td {
+  border: solid 1px;
+}
+fieldset {
+  border: none;
+}
+
+fieldset label {
+  display: inline-block;
+  width: 43px;
+}
+
+fieldset.label-60 label {
+  width: 60px;
+}
+
+fieldset.label-130 label {
+  width: 130px;
+}
+
+fieldset div {
+  margin: 5px;
+}
+
+form ~ div, table ~ div {
+  margin-top: 10px;
+}
